@@ -1,0 +1,49 @@
+# Grapheme	IPA code point(s)
+	
+#	Vowels
+i	i
+a	ɑ
+u	u
+e	ə
+	
+#	Stops
+p	p
+t	t
+k	k
+kw	kʷ
+q	q
+qw	qʷ
+	
+#	Voiced fricatives
+v	v
+l	ɮ
+z	z
+y	j
+r	ʐ
+g	ɣ
+w	ɣʷ
+gh	ʁ
+ghw	ʁʷ
+	
+#	Voiceless fricatives
+f	f
+ll	ɬ
+s	s
+rr	ʂ
+gg	x
+wh	xʷ
+ghh	χ
+ghhw	χʷ
+h	h
+	
+#	Voiced nasals
+m	m
+n	n
+ng	ŋ
+ngw	ŋʷ
+	
+#	Voiceless nasals
+mm	m̥
+nn	n̥
+ngng	ŋ̊
+ngngw	ŋ̊ʷ
