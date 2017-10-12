@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-
+# PART D (65 points)
+#
 # Define a function called tokenize that accepts a lowercased Yupik word,
 # and tokenizes it into Yupik graphemes.
 #

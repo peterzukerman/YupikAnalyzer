@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-
+# PART A (15 points)
+#
 # Yupik syllables must be of the form:
 #
 # * CV

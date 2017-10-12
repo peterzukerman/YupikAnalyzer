@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-
+# PART B (10 points)
+#
 # Write a Python program that accepts text from standard input,
 # lowercases it, and tokenizes it into Yupik graphemes, applies the automatic devoicing rules, 
 # then converts each grapheme into the appropriate IPA symbol,

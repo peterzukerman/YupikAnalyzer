@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+# PART C (10 points)
+#
 # Yupik has voiced and voiceless nasals and fricatives.
 #
 # Certain Yupik fricatives and nasals are "doubleable";
