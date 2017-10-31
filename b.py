@@ -1,14 +1,21 @@
 #!/usr/bin/python3
 
-# PART B (10 points)
+# PART B (10%)
 #
-# Write a Python program that accepts text from standard input,
-# lowercases it, and tokenizes it into Yupik graphemes, applies the automatic devoicing rules, 
-# then converts each grapheme into the appropriate IPA symbol,
-# and then prints the corresponding output (formatted as words, not lists of graphemes).
+# Implement the graphemes2ipa function.
+# It should accept a list of graphemes, and return a list of IPA symbols.
+# If any grapheme is not a Yupik letter, it should be passed through unchanged.
+#
+# When this file is executed, it should:
+#     * accepts text from standard input,
+#     * lowercases it, 
+#     * tokenizes it into Yupik graphemes using your tokenize function from d.py (with keep_apostrophes=False),
+#     * applies the automatic devoicing rules using your apply_devoicing function from c.py, 
+#     * converts each grapheme into the appropriate IPA symbol using your graphemes2ipa function,
+#     * and then print the corresponding output (formatted as words, not lists of graphemes).
 #
 # You will need to import tokenize from d.py
-# You will need to import undouble from c.py
+# You will need to import apply_devoicing from c.py
 #
 # Your output should not contain any apostrophes.
 

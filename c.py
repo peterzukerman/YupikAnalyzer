@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# PART C (10 points)
+# PART C (10%)
 #
 # Yupik has voiced and voiceless nasals and fricatives.
 #
@@ -21,16 +21,6 @@
 #
 # The remaining Yupik consonants do not show this doubling pattern.
 #
-#
-#
-# Write a Python program that accepts text from standard input,
-# lowercases it,
-# tokenizes it into Yupik graphemes using the tokenize function from d.py, 
-# applies the following devoicing rules, 
-# and then prints the corresponding output (formatted as words, not lists of graphemes).
-#
-# (Note: you must import tokenize from d.py)
-#
 # For each tokenized word, apply the following automatic devoicing rules:
 #
 # 1a) If an undoubled (but doubleable) fricative occurs immediately before OR after an unvoiced consonant
@@ -47,10 +37,22 @@
 #
 # 3b) If an undoubled (but doubleable) nasal or fricative occurs immediately before the unvoiced fricative ll
 #     the grapheme for the doubleable voiced consonant is replaced with its voiceless counterpart.
+#
+# Implement a function called apply_devoicing that accepts a list of graphemes,
+#     and returns a list of graphemes with the above rules applied.
+#
+# When this file is executed, it should:
+#    * accept text from standard input,
+#    * lowercase it,
+#    * tokenizes it into Yupik graphemes using the tokenize function from d.py (with keep_apostrophes=True), 
+#    * apply the devoicing rules by calling your apply_devoicing function, 
+#    * and print the corresponding output (formatted as words, not lists of graphemes).
+#
+# (Note: you must import tokenize from d.py)
 
 
 
-def undouble(graphemes):
+def apply_devoicing(graphemes):
     pass
 
 
