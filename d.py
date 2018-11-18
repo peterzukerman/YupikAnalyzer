@@ -51,7 +51,7 @@ import string
 yupikIPA = ["a", "e", "u", "i", "p", "t", "k", "qw", "kw", "q", "v", "l", "z", "y", "r", "g", "w", "gh", "ghw", "f", "ll", "s", "rr", "gg", "wh", "ghh", "ghhw", "h", "m", "n", "ng", "ngw", "mm", "nn", "ngng", "ngngw"]
 ascii_letters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
-def tokenize(word, keep_apostrophes=False):
+def tokenize(word, keep_apostrophes):
     currentToken = ""
     word = word.lower()
     tokenized = []
